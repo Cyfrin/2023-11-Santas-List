@@ -11,7 +11,7 @@
 - Low - 2xp
 
 - Starts: November 30, 2023 Noon UTC
-- Ends: December 06, 2023 Noon UTC
+- Ends: December 07, 2023 Noon UTC
 
 ## Stats
 
