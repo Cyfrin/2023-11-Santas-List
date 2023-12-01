@@ -166,7 +166,7 @@ contract SantasList is ERC721, TokenUri {
     }
 
     /* 
-     * @notice Buy a present for someone else. This should only be callable by someone who is naughty.
+     * @notice Buy a present for someone else. This should only be callable by anyone with SantaTokens.
      * @dev You'll first need to approve the SantasList contract to spend your SantaTokens.
      */
     function buyPresent(address presentReceiver) external {
