@@ -134,7 +134,7 @@ forge coverage --report debug
   - `checkList` - Check the list once
   - `checkTwice` - Check the list twice
   - Additionally, it's OK if Santa mints themselves tokens. 
-- `User` - Participant of the raffle, has the power to enter the raffle with the `enterRaffle` function and refund value through `refund` function.
+- `User` - Can buyPresents and mint NFTs depending on their status of NICE, NAUGHTY, EXTRA-NICE or UNKNOWN
 
 ## Known Issues
 
