@@ -1,6 +1,11 @@
 # First Flight #5: Santa's List
 
-[//]: # (contest-details-open)
+- [About](#about)
+  - [SantasList](#santaslist)
+    - [List Checking](#list-checking)
+    - [Collecting Presents](#collecting-presents)
+  - [SantaToken](#santatoken)
+  - [TokenUri.sol](#tokenurisol)
 
 # Contest Details
 
@@ -18,12 +23,7 @@
 - nSLOC: 116
 - Complexity Score: 83
 
-- [About](#about)
-  - [SantasList](#santaslist)
-    - [List Checking](#list-checking)
-    - [Collecting Presents](#collecting-presents)
-  - [SantaToken](#santatoken)
-  - [TokenUri.sol](#tokenurisol)
+[//]: # (contest-details-open)
 
 # About
 Santa has adopted blockchain technology to keep track of the naughty and nice! Hooray! So Santa hired some south pole contract elves to help build him a blockchain-based list. He'd never worked with blockchain elves before but was excited to see what they could do! They got nearly 100% test coverage, so that's got to be good, right?
