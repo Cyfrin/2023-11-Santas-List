@@ -1,6 +1,6 @@
-<p align="center">
-<img src="https://res.cloudinary.com/droqoz7lg/image/upload/v1700748703/image_720_transformed_720_djb9ly.png" width="400" alt="SantasList">
-<br/>
+# First Flight #5: Santa's List
+
+[//]: # (contest-details-open)
 
 # Contest Details
 
@@ -63,6 +63,17 @@ This codebase is based off [solmate](https://github.com/transmissions11/solmate)
 ## TokenUri.sol
 A minimal contract that exclusively has the tokenURI. It's a separate contract inherited by `SantasList` for readability purposes. 
 
+## Roles
+
+- `Santa` - Deployer of the protocol, should only be able to do 2 things:
+  - `checkList` - Check the list once
+  - `checkTwice` - Check the list twice
+  - Additionally, it's OK if Santa mints themselves tokens. 
+- `User` - Can buyPresents and mint NFTs depending on their status of NICE, NAUGHTY, EXTRA-NICE or UNKNOWN
+
+[//]: # (contest-details-close)
+
+[//]: # (getting-started-open)
 
 # Getting Started
 
@@ -107,6 +118,9 @@ and for coverage based testing:
 forge coverage --report debug
 ```
 
+[//]: # (getting-started-close)
+
+[//]: # (scope-open)
 
 # Audit Scope Details
 
@@ -128,15 +142,13 @@ forge coverage --report debug
 - Tokens
   - `SantaToken`
 
-## Roles
+[//]: # (scope-close)
 
-- `Santa` - Deployer of the protocol, should only be able to do 2 things:
-  - `checkList` - Check the list once
-  - `checkTwice` - Check the list twice
-  - Additionally, it's OK if Santa mints themselves tokens. 
-- `User` - Can buyPresents and mint NFTs depending on their status of NICE, NAUGHTY, EXTRA-NICE or UNKNOWN
+[//]: # (known-issues-open)
 
 ## Known Issues
 
 - We are aware that we are missing a number of zero address checks, please ignore.
 - The Christmas date is approximate, if it's more then 24 hours before or after Christmas, please report that. Otherwise, it's OK.
+
+[//]: # (known-issues-close)
